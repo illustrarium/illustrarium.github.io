@@ -1,6 +1,6 @@
 .header {border-bottom: 4px solid #e5e5e5; padding-bottom: 10px}
 .date {color: #222222; font-size: 18px; font-weight: 600}
-.endmonth {font-size: 14px; color: #999999}
+.endmonth {font-size: 14px; color: #999999; font-weight: 400}
 .data {margin-top: 20px; /*border-bottom: 3px solid #e5e5e5;*/ padding-bottom: 15px; margin-bottom: 15px}
 .dots {border-bottom: dotted 1px #B3B3B3;}
 .amount {width: 80px; height: 80px;}
@@ -16,11 +16,15 @@
 .col-4:hover>.add {display: block}
 .add-cost {margin-top: 15px}
 .active {border: 0px dashed #e5e5e5; padding-bottom: 5px !important; /*box-shadow: 5px 5px 0px rgba(0,0,0,0.1)*/}
+.info {margin-top: 10px; margin-bottom: 10px}
 
+@media (min-width: 576px) { 
+  
+}
 
-@media (min-width: 576px) { ... }
-
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+  
+}
 
 @media (min-width: 992px) { 
   .active {border: 3px dashed #e5e5e5; padding-bottom: 5px !important}
