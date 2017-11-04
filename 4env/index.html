@@ -14,8 +14,16 @@
     $(function () {
       $('[data-tooltip="tooltip"]').tooltip()
     });
+    // $(function () {
+    //   $('[data-toggle="popover"]').popover()
+    // });
     $(function () {
-      $('[data-toggle="popover"]').popover()
+      $('#amount_125').popover({
+        container: 'body',
+        trigger: 'hover',
+        content: '<b>hello</b>',
+        html: true
+      });
     });
   </script>
 </head>
@@ -170,7 +178,7 @@
         </div>
         <div class="row digits">
           <div class="col-8 text-truncate">Продукты</div>
-          <div class="col-4 text-right text-truncate" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">59 BYN</div>
+          <div id="amount_125" class="col-4 text-right text-truncate"><i class="fa fa-align-left" aria-hidden="true"></i> 59 BYN</div>
         </div>
         <div class="row digits">
           <div class="col-8 text-truncate">Остров чистоты</div>
